@@ -23,7 +23,7 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "rg_terra" {
+  name     = "rg-terra"
   location = "West Europe"
 }
